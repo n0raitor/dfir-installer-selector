@@ -1,0 +1,10 @@
+<GUI>
+    <TextBox id="fileNameInput" label="Dateiname:" placeholder="Enter file name here" />
+    <Dropdown id="tagSelection" label="Groups">
+        <!-- Options will be dynamically generated based on config tags -->
+    </Dropdown>
+    <CheckBoxArea>
+        <!-- Categories and related checkboxes will be dynamically generated -->
+    </CheckBoxArea>
+    <Button id="exportButton" label="Exportieren" action="onExport" />
+</GUI>
