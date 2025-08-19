@@ -1,4 +1,5 @@
 # dfir-installer-selector
+
 Tool to create .conf files for dfir-installer using a GUI
 
 Run main.py and the gui pops up.
