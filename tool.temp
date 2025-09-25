@@ -16,7 +16,7 @@ Hexinator
 Highlighter
 HxD
 IrfanView
-MFT Browser
+MFTBrowser
 NetworkUsageView
 OfficeSpy
 OneDriveExplorer
@@ -53,7 +53,7 @@ hindsightgui
 sqlite-dissect
 undark
 Eraser
-Hasleo Data Recovery
+HasleoDataRecovery
 sort-PhotorecRecoveredFiles
 Testdisk
 VSS_Carver.pyinfected
@@ -137,6 +137,7 @@ UI.Xaml2.7
 UI.Xaml2.8
 VC Redistributable x64
 VCLibsDesktop14
+VCRedist201032bit
 VCRedist2010
 VCRedist2015x64
 VCRedist2015x86
@@ -147,7 +148,7 @@ Chainsaw
 densityscout
 Hayabusa
 Hollowshunter
-Mandiant IOCe
+Mandiant_IOCe
 sigma
 Yara
 Ubuntu2204
@@ -172,12 +173,12 @@ Pesieve
 PEview
 SpyStudio
 AnyBurn
-balenaEtcher
 Etcher
 OBSStudio
 Rufus
 VLC
 FOR500VM-Soft
+FOR508VM-Soft-new
 FOR508VM-Soft
 Apimonitor
 Fakenet
@@ -212,7 +213,8 @@ MicroBurst
 Mimikatz
 qFlipper
 samdump
-sliver
+sliver-client
+sliver-server
 SQLRecon
 Whisker
 WMImplant
@@ -230,6 +232,7 @@ AppCrashView
 AppInstaller
 AppReadWriteCounter
 Appx-Analysis
+AutoIt-Extractor32bit
 AutoIt-Extractor
 balbuzard
 BlueScreenView
@@ -345,4 +348,7 @@ MemoryDumperx64
 MemoryDumperx86
 MemProcFS
 windump
+WinPMemPortable
 winpmem
+TimeApp
+iisGeoLocate
