@@ -17,7 +17,6 @@ Highlighter
 HxD
 IrfanView
 MFTBrowser
-NetworkUsageView
 OfficeSpy
 OneDriveExplorer
 Pestudio
@@ -38,15 +37,14 @@ Hasleo-Backup-Suite
 SynologyActiveBackupforBusinessAgent
 Veeam-backup-and-replication-iso
 Chrome
+Firefox
 Tor-browser
 bring2lite
 BrowsingHistoryView
 Chromagnon
-ChromeCacheView
 DBBrowserForSQLite
 dejsonlz4
 DriveFS-Sleuth
-Firefox
 forensicsim
 hindsight
 hindsightgui
@@ -63,7 +61,6 @@ forensictools
 Get-ZimmermanTools
 iDef Map Setup
 JoakimSchichtTools
-NirSoft-Everything
 OleTools
 retoolkit_installer
 retoolkit2_installer
@@ -75,17 +72,8 @@ Ollydbg
 OllyDumpEx
 ProcDOT
 Procdump
-SimpleProgramDebugger
 WinDbg
 X64dbg.portable
-NirSoft DownTester
-NirSoft IPNetInfo
-NirSoft NK2Edit
-NirSoft ShellExView
-NirSoft VideoCacheView
-NirSoft Volumouse
-NirSoft WhoisThisDomain
-NirSoft Wireless Network Watcher
 CMake
 Git
 GitKraken
@@ -96,7 +84,6 @@ Python-Launcher
 VisualStudio2022
 VisualStudioCode
 VisualStudioEnterprise2022
-GeForceExperience
 GIGABYTEControlCenter
 LogiOptions
 Logitech G HUB
@@ -109,8 +96,8 @@ Notepadpp
 ReCsvEdit
 Vim
 Exchange-edb-viewer
-Free Kernel OST Viewer
-Free Kernel PST Viewer
+Kernel-OST-Viewer
+Kernel-PST-Viewer
 GmailURLDecoder
 Mailviewer
 MFCMAPI
@@ -120,7 +107,6 @@ Event Log Explorer
 Event Log Explorer Old
 Event Log Explorer_Forensic
 Event Log Explorer_Standard
-FullEventLogView
 Partition-4DiagnosticParser
 ArtiFast
 Autopsy
@@ -137,8 +123,8 @@ UI.Xaml2.7
 UI.Xaml2.8
 VC Redistributable x64
 VCLibsDesktop14
-VCRedist201032bit
 VCRedist2010
+VCRedist201032bit
 VCRedist2015x64
 VCRedist2015x86
 WindowsSDK10
@@ -178,24 +164,19 @@ OBSStudio
 Rufus
 VLC
 FOR500VM-Soft
-FOR508VM-Soft-new
 FOR508VM-Soft
+FOR508VM-Soft-new
 Apimonitor
 Fakenet
 FiddlerClassic
 GeoIpUpdate
 HTTrack
 JDownloader
-NetworkInterfacesView
 NetworkMiner
-NetworkOpenedFiles
 Nmap
 Npcap
 qBittorrent
-TcpLogView
-Telnet
 Vt-cli
-WifiInfoView
 WinSCP
 Wireshark
 Logfileparser
@@ -224,26 +205,19 @@ PDF24Creator
 VisioViewer
 Scylla
 ScyllaHide
-AdvancedRun
-AlternateStreamView
 apilogger
 Apktool
-AppCrashView
 AppInstaller
-AppReadWriteCounter
 Appx-Analysis
-AutoIt-Extractor32bit
 AutoIt-Extractor
+AutoIt-Extractor32bit
 balbuzard
-BlueScreenView
 bytehist
-CSVFileView
 de4dot
 decompile-py2exe
 dex2jar
 dll_to_exe
 dnlib
-DNSLookupView
 dnSpy
 DotPeek
 exe2aut
@@ -255,32 +229,21 @@ IFPSTools
 inetsim
 innoextract
 Innounp
-InsideClipboard
-InstalledDriversList
-InstalledPackagesView
-Last Activity View
 MSGWalker
 msodbcsql
-NetBScanner
-NetRouteView
 notatin_comp
 notatin_dump
-OpenedFilesView
 Ppee
 pyinstxtractor
 RealVNC Viewer
 RunDotNetDll
-SoundVolumeView
 Sqlcmd
 SQliteSpy
 SrumMonkey
 SystemInformer
 Temurin
-TurnedOnTimesView
 tzworks_toolset
-UninstallView
 Vnc-viewer
-WakeMeOnLan
 WebDeploy
 ChocolateyGUI
 DockerDesktop
@@ -316,22 +279,18 @@ Explorer Suite
 Explorersuite
 CoreTemp
 CrystalDiskInfo
-HashMyFiles
 Processhacker
 ProtonDrive
 ProtonMail
 ProtonPass
 ProtonVPN
 Resourcehacker.portable
-ResourcesExtract
-SearchMyFiles
 SpaceSniffer
 Sysinternals
 WinDirStat
 Cmder
 Cygwin
 parseusbs
-USBLogView
 Cutter
 Dokany
 ILSpy
@@ -348,7 +307,74 @@ MemoryDumperx64
 MemoryDumperx86
 MemProcFS
 windump
-WinPMemPortable
 winpmem
+WinPMemPortable
 TimeApp
 iisGeoLocate
+AirCrack-NG
+AngryIPScanner
+AshampooBUPro15
+BurnInTest
+ClamAVWin
+Comae-Toolkit
+dfir-installer
+DirectoryOpus
+EDD
+EditPadLite
+GSmartControl
+hasher
+KAPE-Big
+kernel-document-viewer
+kernel-emlx-viewer
+kernel-sql-backup-recovery
+kernel-sql-viewer
+kernel-sqlite-viewer
+kernel-vhd-vhdx-viewer
+kernel-vmdk-recovery-demo
+kernel-windows-data-recovery-free
+kernel-xps-viewer
+kernelbasedemo
+kernelbkf-viewer
+kernelbulkimageresizer
+kernelcalcdemo
+kerneldbx-viewer
+kerneldrawdemo
+kernelemlviewer
+kernelexchange-edb-viewer
+kernelexchangetogroup64
+Kernelforexchangetonotes
+kernelfreekernelolmviewer
+kernelfreekerneloutlookpstreporter
+kernelgrptonotes
+kernelimpressdemo
+kernelmathsdemo
+kernelmboxviewer
+kernelmdb-viewer
+kernelmdf-viewer
+kernelnotestogrp
+kernelnotestopdfdemo
+kernelnsf-viewer
+kernelnst-viewer
+kernelNucleus-IE-Password
+kernelNucleus-Kernel-DBX
+kernelNucleus-Kernel-Excel
+kernelNucleus-Kernel-IncrediMail-Demo
+kernelNucleus-Kernel-Paradox-Demo
+kernelNucleus-MSN-Password
+kernelNucleus-PST-Password-Demo
+kerneloetonotes
+KernelPasswordUnmask
+kernelprojectserver
+kernelpstadd
+kernelwriterdemo
+kernelyahooarchive
+LM-Studio
+NirSoft-Launcher
+Perl
+SamSpade
+SecureRM
+TotalCommander
+VisualStudioCommunityEdition
+Volatility-Workbench
+W10Privacy
+NvidiaApp
