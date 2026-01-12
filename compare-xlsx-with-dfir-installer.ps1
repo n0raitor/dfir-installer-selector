@@ -5,7 +5,7 @@ $logFile = Join-Path $scriptDir "$scriptName.log"
 
 $excelFile = Join-Path $scriptDir "dfir-installer-selector.xlsx"
 $tempFile  = Join-Path $scriptDir "tool.temp"
-$listFile  = Join-Path $scriptDir "..\dfir-installer\list-of-tools.txt"
+$listFile  = Join-Path $scriptDir "..\dfir-installer-files\list-of-tools.txt"
 
 # --- Excel einlesen ---
 # Hinweis: Benötigt ImportExcel Modul -> Install-Module -Name ImportExcel -Scope CurrentUser
