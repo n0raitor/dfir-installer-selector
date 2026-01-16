@@ -81,6 +81,31 @@ def toggle_selection_in_category(category):
         tool_vars[tool['name']].set(new_state)
 
 
+def on_load_config():
+    """Lädt eine Konfigurationsdatei und prüft die entsprechenden Checkboxen."""
+    file_path = filedialog.askopenfilename(
+        title="Konfiguration laden",
+        filetypes=[("Config files", "*.conf"), ("All files", "*.*")]
+    )
+    
+    if not file_path:
+        return
+    
+    # Zuerst alle Checkboxen deaktivieren
+    for var in tool_vars.values():
+        var.set(False)
+    
+    # Config-Datei laden und Checkboxen entsprechend setzen
+    try:
+        with open(file_path, 'r') as file:
+            for line in file:
+                tool_name = line.strip()
+                if tool_name and tool_name in tool_vars:
+                    tool_vars[tool_name].set(True)
+    except Exception as e:
+        print(f"Fehler beim Laden der Konfiguration: {e}")
+
+
 def on_export():
     """Exportiert die Konfiguration aus den ausgewählten Werkzeugen."""
     selected_tools = [tool for tool, var in tool_vars.items() if var.get()]
@@ -128,6 +153,10 @@ def create_gui(config_data, xml_root):
     reset_button = tk.Button(dropdown_frame, text="Reset", command=lambda: reset_selection(tag_var), font=FONT,
                              bg=BUTTON_COLOR, fg=TEXT_COLOR, highlightbackground=BUTTON_COLOR)
     reset_button.pack(side=tk.LEFT, padx=5)
+
+    load_config_button = tk.Button(dropdown_frame, text="Load Config", command=on_load_config, font=FONT,
+                                   bg=BUTTON_COLOR, fg=TEXT_COLOR, highlightbackground=BUTTON_COLOR)
+    load_config_button.pack(side=tk.LEFT, padx=5)
 
     button_elem = xml_root.find('Button')
     export_button = tk.Button(dropdown_frame, text=button_elem.attrib['label'], command=on_export, font=FONT,
