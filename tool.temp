@@ -13,7 +13,6 @@ ArtiFast
 AutoIt-Extractor
 AutoIt-Extractor32bit
 Autopsy
-Autopsy-Addons
 Autorunner
 balbuzard
 Binary Ninja
@@ -85,9 +84,6 @@ ffdec
 FiddlerClassic
 Firefox
 Floss
-FOR500VM-Soft
-FOR508VM-Soft
-FOR508VM-Soft-new
 forensicsim
 forensictools
 fqlite
@@ -378,3 +374,10 @@ VisualStudioCommunityEdition
 Volatility-Workbench
 W10Privacy
 NvidiaApp
+appcompatprocessor
+awscli
+CyberDuck
+INDXParse
+Silver
+Thunderbird
+VirtualBox
