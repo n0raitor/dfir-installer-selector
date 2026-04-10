@@ -182,3 +182,4 @@ cython_debug/
 .idea
 ~$dfir-installer-selector.xlsx
 tool.temp
+tool.temp
